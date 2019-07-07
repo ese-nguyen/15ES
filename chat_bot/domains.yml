@@ -1,0 +1,51 @@
+%YAML 1.1
+---
+actions:
+- utter_answer
+- utter_ask_help
+- utter_cheer_up
+- utter_good_bye
+- utter_greet
+- utter_happy
+- utter_suggest
+- utter_thank
+entities:
+- brand
+- product
+intents:
+- inform
+- gratefull
+- deny
+- affirm
+- greet
+- goodbye
+- mood_great
+- mood_unhappy
+slots:
+  brand:
+    type: text
+  product:
+    type: text
+templates:
+  utter_answer:
+  - text: Here you are
+  - text: I found there
+  utter_ask_help:
+  - text: How can i help you ?
+  utter_cheer_up:
+  - text: Don't worry, everything will be fine
+  utter_good_bye:
+  - text: Bye, see you later
+  - text: See you later
+  - text: Bye, have a good day
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Greet, that sounds good
+  utter_suggest:
+  - text: You need something else ?
+  - text: Do you want to buy more ?
+  utter_thank:
+  - text: You are welcome
+  - text: That is my hornor
+  - text: That makes me happy

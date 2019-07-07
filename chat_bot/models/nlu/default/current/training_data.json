@@ -1,0 +1,689 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "indeed"
+      },
+      {
+        "intent": "affirm",
+        "text": "of course"
+      },
+      {
+        "intent": "affirm",
+        "text": "that sounds good"
+      },
+      {
+        "intent": "affirm",
+        "text": "correct"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "yup"
+      },
+      {
+        "intent": "affirm",
+        "text": "obviously"
+      },
+      {
+        "intent": "deny",
+        "text": "no"
+      },
+      {
+        "intent": "deny",
+        "text": "never"
+      },
+      {
+        "intent": "deny",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "deny",
+        "text": "don't like that"
+      },
+      {
+        "intent": "deny",
+        "text": "no way"
+      },
+      {
+        "intent": "deny",
+        "text": "not really"
+      },
+      {
+        "intent": "deny",
+        "text": "nope"
+      },
+      {
+        "intent": "deny",
+        "text": "Nahh"
+      },
+      {
+        "intent": "deny",
+        "text": "No. It is enough"
+      },
+      {
+        "intent": "deny",
+        "text": "That 's enough"
+      },
+      {
+        "intent": "deny",
+        "text": "No"
+      },
+      {
+        "intent": "deny",
+        "text": "No"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you around"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "have a nice day"
+      },
+      {
+        "intent": "goodbye",
+        "text": "I want to bye a motorbike"
+      },
+      {
+        "intent": "gratefull",
+        "text": "thank you"
+      },
+      {
+        "intent": "gratefull",
+        "text": "i appreciate your help"
+      },
+      {
+        "intent": "gratefull",
+        "text": "thanks"
+      },
+      {
+        "intent": "gratefull",
+        "text": "it helps a lot"
+      },
+      {
+        "intent": "gratefull",
+        "text": "thank you very much"
+      },
+      {
+        "intent": "gratefull",
+        "text": "i am very gratefull"
+      },
+      {
+        "intent": "gratefull",
+        "text": "Oh thanks"
+      },
+      {
+        "intent": "gratefull",
+        "text": "thank you"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "Oh thanks"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 29,
+            "value": "bottle of water",
+            "entity": "product"
+          }
+        ],
+        "text": "i want to buy bottle of water"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 37,
+            "end": 42,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "Can you tell me which store sell the shoes?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 33,
+            "end": 37,
+            "value": "wine",
+            "entity": "product"
+          }
+        ],
+        "text": "Can you tell me which store sell wine"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 9,
+            "end": 19,
+            "value": "smartphone",
+            "entity": "product"
+          }
+        ],
+        "text": "I need a smartphone"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "water",
+            "entity": "product"
+          }
+        ],
+        "text": "i want to buy some water"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "smartphone",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy smartphone"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 14,
+            "end": 17,
+            "value": "dog",
+            "entity": "product"
+          }
+        ],
+        "text": "i want to buy dog"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "motorbike",
+            "entity": "product"
+          }
+        ],
+        "text": "motorbike"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "dog",
+            "entity": "product"
+          }
+        ],
+        "text": "dog"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "shoes"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "bottle of water",
+            "entity": "product"
+          }
+        ],
+        "text": "bottle of water"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "water",
+            "entity": "product"
+          }
+        ],
+        "text": "water"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "suitcase",
+            "entity": "product"
+          }
+        ],
+        "text": "suitcase"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "smartphone",
+            "entity": "product"
+          }
+        ],
+        "text": "smartphone"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "shoes",
+            "entity": "product"
+          }
+        ],
+        "text": "shoes"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "wine",
+            "entity": "product"
+          }
+        ],
+        "text": "wine"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "watch",
+            "entity": "product"
+          }
+        ],
+        "text": "watch"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "watch",
+            "entity": "product"
+          }
+        ],
+        "text": "watch"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "watch",
+            "entity": "product"
+          }
+        ],
+        "text": "watch"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "toothpaste",
+            "entity": "product"
+          }
+        ],
+        "text": "toothpaste"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 13,
+            "value": "cup of coffee",
+            "entity": "product"
+          }
+        ],
+        "text": "cup of coffee"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "water",
+            "entity": "product"
+          }
+        ],
+        "text": "i want water"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "bottle of water",
+            "entity": "product"
+          }
+        ],
+        "text": "i want bottle of water"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 23,
+            "value": "T-shirt",
+            "entity": "product"
+          }
+        ],
+        "text": "I want to buy a T-shirt"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 36,
+            "value": "wine",
+            "entity": "product"
+          }
+        ],
+        "text": "Can you tell me where i can buy wine?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 37,
+            "value": "watch",
+            "entity": "product"
+          }
+        ],
+        "text": "Can you tell me where i can buy watch?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 17,
+            "value": "toothpaste",
+            "entity": "product"
+          }
+        ],
+        "text": "i need toothpaste"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 40,
+            "value": "smart phone",
+            "entity": "product"
+          }
+        ],
+        "text": "I don't know where i can buy smart phone"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 46,
+            "value": "bottle of wine",
+            "entity": "product"
+          }
+        ],
+        "text": "can you tell me where i can buy bottle of wine?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 7,
+            "end": 15,
+            "value": "suitcase",
+            "entity": "product"
+          }
+        ],
+        "text": "i need suitcase"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "water",
+            "entity": "product"
+          }
+        ],
+        "text": "i want to buy some water"
+      },
+      {
+        "intent": "mood_great",
+        "text": "perfect"
+      },
+      {
+        "intent": "mood_great",
+        "text": "very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "amazing"
+      },
+      {
+        "intent": "mood_great",
+        "text": "wonderful"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am feeling very good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am great"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I'm good"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am happy"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am sad"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am happy"
+      },
+      {
+        "intent": "mood_great",
+        "text": "Happy"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I'm not bad"
+      },
+      {
+        "intent": "mood_great",
+        "text": "I am not bad"
+      },
+      {
+        "intent": "mood_great",
+        "text": "Nothing is better"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "unhappy"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "very bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "awful"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "terrible"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "not very good"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "extremely sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "so sad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am sad"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": [
+      {
+        "value": "a bottle of aquafina",
+        "synonyms": [
+          "a bottle of Aquafina"
+        ]
+      },
+      {
+        "value": "apple",
+        "synonyms": [
+          "Apple"
+        ]
+      },
+      {
+        "value": "aquafina",
+        "synonyms": [
+          "Aquafina"
+        ]
+      },
+      {
+        "value": "samsung",
+        "synonyms": [
+          "Samsung"
+        ]
+      }
+    ]
+  }
+}

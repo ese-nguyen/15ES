@@ -1,0 +1,60 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_cheer_up
+- utter_happy
+- utter_good_bye
+- utter_ask_help
+- utter_suggest
+- action_find
+- utter_thank
+actions:
+- utter_greet
+- utter_cheer_up
+- utter_happy
+- utter_good_bye
+- utter_ask_help
+- utter_suggest
+- actions.FindLocationAction
+- utter_thank
+config:
+  store_entities_as_slots: true
+entities:
+- product
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- inform
+- gratefull
+slots:
+  brand:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  product:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_help:
+  - text: What are you looking for? You can take a picture or describe it to me.
+  utter_cheer_up:
+  - text: Don't worry, everything will be fine
+  utter_good_bye:
+  - text: Bye, see you later
+  - text: See you later
+  - text: Bye, have a good day
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Greet, that sounds good
+  utter_suggest:
+  - text: You need something else ?
+  - text: Do you want to buy more ?
+  utter_thank:
+  - text: You are welcome
+  - text: That is my hornor
+  - text: That makes me happy
+topics: []
